@@ -71,9 +71,10 @@ This project is open-source and available under the MIT License. See the [LICENS
 - Laravel
 - Tailwind CSS
 - Vite
-- All contributors and open-source libraries used in this project.
+- React
+- MySQL.
 
 ## Contact
 
-For any inquiries, please contact [Your Name] at [your.email@example.com].
+For any inquiries, please contact Ahmed Hmimida at Ahmed0hmimida@gmail.com .
 ```
