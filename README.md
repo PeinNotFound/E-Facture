@@ -1,5 +1,4 @@
-```
-# E-facture
+**E-Facture**
 
 E-facture is a web application designed to manage and generate electronic invoices efficiently. This project is built using Laravel and includes a modern frontend setup with Vite and Tailwind CSS.
 
