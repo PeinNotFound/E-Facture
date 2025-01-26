@@ -26,9 +26,9 @@ E-facture is a web application designed to manage and generate electronic invoic
 
 3. **Set up environment variables**:
     - Copy `.env.example` to `.env` and update the necessary values (e.g., database credentials).
-    - Generate the application key:
+    - Seed the database(edit db info from .env):
       ```bash
-      php artisan key:generate
+      php artisan db:seed
       ```
 
 4. **Run migrations**:
