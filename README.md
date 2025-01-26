@@ -14,7 +14,7 @@ E-facture is a web application designed to manage and generate electronic invoic
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/E-facture.git
+   git clone https://github.com/PeinNotFound/E-facture.git
    cd E-facture
    ```
 
