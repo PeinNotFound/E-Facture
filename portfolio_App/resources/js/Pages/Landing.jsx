@@ -79,7 +79,7 @@ export default function Landing({auth}) {
                       Simplify Your Utility Payments
                     </h1>
                     <p className="mt-4 text-lg text-gray-300">
-                      Radeema is your trusted platform for managing and paying your water and electricity bills online, all in one place.
+                       Your trusted platform for managing and paying your water and electricity bills online, all in one place.
                     </p>
                   </div>
                 </div>
@@ -149,7 +149,7 @@ export default function Landing({auth}) {
                       Secure Transactions
                     </h6>
                     <p className="mt-2 mb-4 text-gray-400">
-                      Radeema ensures that all your payments are processed securely and efficiently, giving you peace of mind with every transaction.
+                      We ensure that all your payments are processed securely and efficiently, giving you peace of mind with every transaction.
                     </p>
                   </div>
                 </div>
@@ -165,7 +165,7 @@ export default function Landing({auth}) {
                   Seamless Payment Process
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-400">
-                  Radeema streamlines your utility payments by allowing you to manage and pay your bills from one easy-to-use platform.
+                  we streamline your utility payments by allowing you to manage and pay your bills from one easy-to-use platform.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-400">
                   Whether it's your water or electricity bill, our platform ensures that the payment process is fast, simple, and secure.
@@ -202,10 +202,10 @@ export default function Landing({auth}) {
                       ></polygon>
                     </svg>
                     <h4 className="text-xl font-bold text-white">
-                      Why Choose Radeema?
+                      Why Choose us?
                     </h4>
                     <p className="text-md font-light mt-2 text-gray-300">
-                      Radeema is dedicated to providing a hassle-free experience for managing your utility payments. Our platform is designed with the user in mind, offering convenience, security, and transparency in every transaction.
+                      We are dedicated to providing a hassle-free experience for managing your utility payments. Our platform is designed with the user in mind, offering convenience, security, and transparency in every transaction.
                     </p>
                   </blockquote>
                 </div>
@@ -254,7 +254,7 @@ export default function Landing({auth}) {
                     Reliable Service
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-400">
-                    Radeema is committed to delivering reliable and accurate billing services. Our platform ensures that you receive up-to-date information on your water and electricity usage.
+                    we are committed to delivering reliable and accurate billing services. Our platform ensures that you receive up-to-date information on your water and electricity usage.
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
@@ -330,7 +330,7 @@ export default function Landing({auth}) {
                 </h5>
                 <div className="mt-6">
                   <a
-                    href="https://mobile.twitter.com/RADEEMAofficiel/with_replies"
+                    href="https://mobile.twitter.com/ahmedhmimida/with_replies"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
@@ -338,7 +338,7 @@ export default function Landing({auth}) {
                     <FontAwesomeIcon icon={faTwitterSquare} />
                   </a>
                   <a
-                    href="https://www.facebook.com/RADEEMAKECH"
+                    href="https://www.facebook.com/Klechkowski_Ahmed"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
@@ -346,7 +346,7 @@ export default function Landing({auth}) {
                     <FontAwesomeIcon icon={faFacebookSquare} />
                   </a>
                   <a
-                    href="https://www.instagram.com/radeemaofficiel/"
+                    href="https://www.instagram.com/Klechkowski_Ahmed/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
@@ -354,7 +354,7 @@ export default function Landing({auth}) {
                        <FontAwesomeIcon icon={faInstagram} />
                   </a>
                   {/* <a
-                    href="https://www.linkedin.com/company/Radeema"
+                    href="https://www.linkedin.com/company/AhmedHmimida"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-white text-blue-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
@@ -403,7 +403,7 @@ export default function Landing({auth}) {
                     <ul className="list-unstyled">
                       <li className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm">
                         <i className="fas fa-envelope mr-2"></i>
-                        contact@radeema.ma
+                        Ahmed0hmimida@gmail.com
                       </li>
                       <li className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm">
                         <i className="fas fa-phone mr-2"></i>
@@ -422,7 +422,7 @@ export default function Landing({auth}) {
             <div className="flex flex-wrap items-center md:justify-between justify-center">
               <div className="w-full md:w-4/12 px-4 mx-auto text-center">
                 <div className="text-sm text-gray-600 font-semibold py-1">
-                  Copyright © {new Date().getFullYear()}{" "}Radeema. All rights reserved.
+                  Copyright © {new Date().getFullYear()}{" "}.Alx Se All rights reserved.
                 </div>
               </div>
             </div>

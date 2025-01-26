@@ -79,8 +79,8 @@ const InvoicePDF = ({ bill, user }) => (
             {/* Header */}
             <View style={styles.header}>
                 <View>
-                    <Image style={styles.logo} src="/images/radeemaLogo.png" />
-                    <Text style={styles.title}>Radeema Inc.</Text>
+                    <Image style={styles.logo} src="/images/2alx_white.png" />
+                    <Text style={styles.title}>Alx Inc.</Text>
                     <Text style={styles.text}>Avenue Mohamed VI</Text>
                     <Text style={styles.text}>Guéliz, Marrakech</Text>
                 </View>

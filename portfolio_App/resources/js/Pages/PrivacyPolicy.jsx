@@ -10,14 +10,14 @@ export default function PrivacyPolicy({auth}) {
         <div className="bg-primary text-gray-300 min-h-screen py-10 px-6">
             <div className="max-w-4xl mx-auto bg-secondary rounded-lg shadow-lg p-8">
                 <h1 className="text-3xl font-bold text-white mb-6">Privacy Policy</h1>
-                
+
                 <section className="mb-8">
                 <h2 className="text-2xl font-semibold text-white mb-4">Introduction</h2>
                 <p className="leading-relaxed">
-                    Welcome to Radeema. We are committed to protecting your personal data and respecting your privacy. This Privacy Policy outlines how we collect, use, and protect your information when you use our platform.
+                    Welcome to My Portfolio Project. We are committed to protecting your personal data and respecting your privacy. This Privacy Policy outlines how we collect, use, and protect your information when you use our platform.
                 </p>
                 </section>
-                
+
                 <section className="mb-8">
                 <h2 className="text-2xl font-semibold text-white mb-4">Information We Collect</h2>
                 <ul className="list-disc pl-5 space-y-2">
@@ -58,7 +58,7 @@ export default function PrivacyPolicy({auth}) {
                 <section className="mb-8">
                 <h2 className="text-2xl font-semibold text-white mb-4">Your Rights</h2>
                 <p className="leading-relaxed">
-                    You have the right to access, correct, or delete your personal information. You can also object to the processing of your data or request that we restrict its use. To exercise these rights, please contact us at <a href="mailto:contact@radeema.ma" className="text-blue-500">contact@radeema.ma</a>.
+                    You have the right to access, correct, or delete your personal information. You can also object to the processing of your data or request that we restrict its use. To exercise these rights, please contact us at <a href="mailto:ahmed0hmimida@gmail.com" className="text-blue-500">ahmed0hmimida@gmail.com</a>.
                 </p>
                 </section>
 
@@ -72,7 +72,7 @@ export default function PrivacyPolicy({auth}) {
                 <section className="mb-8">
                 <h2 className="text-2xl font-semibold text-white mb-4">Contact Us</h2>
                 <p className="leading-relaxed">
-                    If you have any questions or concerns about this Privacy Policy, please contact us at <a href="mailto:contact@radeema.ma" className="text-blue-500">contact@radeema.ma</a>.
+                    If you have any questions or concerns about this Privacy Policy, please contact us at <a href="mailto:ahmed0hmimida@gmail.com" className="text-blue-500">ahmed0hmimida@gmail.com</a>.
                 </p>
                 </section>
 

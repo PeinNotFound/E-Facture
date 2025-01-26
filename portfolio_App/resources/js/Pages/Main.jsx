@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { MagnifyingGlass, ListBullets , Bell, List, Browsers, CheckSquare, Swap, FileText, Globe, Money, UserGear, Cookie, ClipboardText, Lightning, FireSimple, File, Drop, CaretDown, CaretRight } from 'phosphor-react';
-import './../../css/style.css'; 
+import './../../css/style.css';
 import { Link, usePage } from '@inertiajs/react';
 
 
@@ -13,11 +13,11 @@ const Main = () => {
             <div className="app-header-logo">
           <div className="logo">
             <span className="logo-icon">
-              <img src="images/radeemaLogo.png" alt="Logo" />
+              <img src="images/fsklubcypgm2sreez5de.png" alt="Logo" />
             </span>
             <h1 className="logo-title">
-              <span>Radeema</span>
-              <span>راديما</span>
+              <span>Alx SE</span>
+              <span>ALX SE</span>
             </h1>
           </div>
         </div>
@@ -90,9 +90,9 @@ const Main = () => {
             </Link>
           </nav>
           <footer className="footer">
-            <h1>Radeema<small>©</small></h1>
+            <h1>Alx<small>©</small></h1>
             <div>
-              Radeema ©<br />
+              Alx ©<br />
               All Rights Reserved 2024
             </div>
           </footer>
@@ -102,7 +102,7 @@ const Main = () => {
             <h2>Services</h2>
             <div className="service-section-header">
               <div className="info-box bg-secondary rounded-lg shadow-lg pl-8 pt-4 pb-4">
-                <h3 className="text-xl font-semibold text-gray-200">Welcome to Radeema Services</h3>
+                <h3 className="text-xl font-semibold text-gray-200">Welcome to Alx Final Project Services</h3>
                 <p className="text-md text-white mt-2 w-[50rem]">
                   Below, you can access your latest bills, view your payment history, and manage your account. For any assistance, our support team is always ready to help.
                 </p>
@@ -110,7 +110,7 @@ const Main = () => {
                   Remember to keep your contact information up to date to receive timely notifications about your services.
                 </p>
                 <p className="text-md text-white mt-2">
-                  Thank you for choosing Radeema!
+                  Thank you for choosing us!
                 </p>
               </div>
             </div>

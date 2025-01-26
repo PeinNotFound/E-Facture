@@ -11,7 +11,7 @@ import InvoicePDF from './InvoicePDF'; // Import the InvoicePDF component
 const InvoiceComponent = ({auth}) => {
     const { user, bill } = usePage().props;
 
-    
+
 
     useEffect(() => {
         toast.success('Payment successful!');
@@ -29,7 +29,7 @@ const InvoiceComponent = ({auth}) => {
     };
 
     return (
-        <AuthenticatedLayout 
+        <AuthenticatedLayout
             user={auth.user}
         >
             <Head title="invoice" />
@@ -59,13 +59,13 @@ const InvoiceComponent = ({auth}) => {
                 <div className="flex flex-col p-4 sm:p-10 bg-white shadow-md rounded-xl dark:bg-neutral-800" id="invoice-section">
                     <div className="flex justify-between">
                     <div>
-                        <img src='/images/radeemaLogo.png' className='w-20 h-20'/>
-        
+                        <img src='/images/fsklubcypgm2sreez5de.png' className='w-20 h-20'/>
+
                         <h1 className="mt-2 text-lg md:text-xl font-semibold text-blue-600 dark:text-white">
-                        Radeema Inc.
+                        Alx Inc.
                         </h1>
                     </div>
-        
+
                     <div className="text-end">
                         <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 dark:text-neutral-200">
                         Invoice #
@@ -73,7 +73,7 @@ const InvoiceComponent = ({auth}) => {
                         <span className="mt-1 block text-gray-500 dark:text-neutral-500">
                         3682303
                         </span>
-        
+
                         <address className="mt-4 not-italic text-gray-800 dark:text-neutral-200">
                         Avenue Mohamed VI
                         <br />
@@ -84,7 +84,7 @@ const InvoiceComponent = ({auth}) => {
                         </address>
                     </div>
                     </div>
-        
+
                     <div className="mt-8 grid sm:grid-cols-2 gap-3">
                     <div>
                         <h3 className="text-lg font-semibold text-gray-800 dark:text-neutral-200">
@@ -98,7 +98,7 @@ const InvoiceComponent = ({auth}) => {
                         <br />
                         </address>
                     </div>
-        
+
                     <div className="sm:text-end space-y-2">
                         <div className="grid grid-cols-2 sm:grid-cols-1 gap-3 sm:gap-2">
                         <dl className="grid sm:grid-cols-5 gap-x-3">
@@ -120,7 +120,7 @@ const InvoiceComponent = ({auth}) => {
                         </div>
                     </div>
                     </div>
-        
+
                     <div className="mt-6">
                     <div className="border border-gray-200 p-4 rounded-lg space-y-4 dark:border-neutral-700">
                         <div className="hidden sm:grid sm:grid-cols-5">
@@ -137,9 +137,9 @@ const InvoiceComponent = ({auth}) => {
                             Amount
                         </div>
                         </div>
-        
+
                         <div className="hidden sm:block border-b border-gray-200 dark:border-neutral-700"></div>
-        
+
                         <div className="grid grid-cols-3 sm:grid-cols-5 gap-2">
                         <div className="col-span-full sm:col-span-2">
                             <h5 className="sm:hidden text-xs font-medium text-gray-500 uppercase dark:text-neutral-500">
@@ -170,16 +170,16 @@ const InvoiceComponent = ({auth}) => {
                             </p>
                         </div>
                         </div>
-        
+
                         <div className="sm:hidden border-b border-gray-200 dark:border-neutral-700"></div>
-        
-                        
+
+
                         <div className="sm:hidden border-b border-gray-200 dark:border-neutral-700"></div>
-        
-                       
+
+
                     </div>
                     </div>
-        
+
                     <div className="mt-8 flex sm:justify-end">
                     <div className="w-full max-w-2xl sm:text-end space-y-2">
                         <div className="grid grid-cols-2 sm:grid-cols-1 gap-3 sm:gap-2">
@@ -191,7 +191,7 @@ const InvoiceComponent = ({auth}) => {
                             ${bill.amount}
                             </dd>
                         </dl>
-        
+
                         <dl className="grid sm:grid-cols-5 gap-x-3">
                             <dt className="col-span-3 font-semibold text-gray-800 dark:text-neutral-200">
                             Previous Balance:
@@ -200,8 +200,8 @@ const InvoiceComponent = ({auth}) => {
                             ${bill.previous_balance}
                             </dd>
                         </dl>
-        
-        
+
+
                         <dl className="grid sm:grid-cols-5 gap-x-3">
                             <dt className="col-span-3 font-semibold text-gray-800 dark:text-neutral-200">
                             Amount paid:
@@ -210,7 +210,7 @@ const InvoiceComponent = ({auth}) => {
                             ${bill.total_amount_due}
                             </dd>
                         </dl>
-        
+
                         <dl className="grid sm:grid-cols-5 gap-x-3">
                             <dt className="col-span-3 font-semibold text-gray-800 dark:text-neutral-200">
                             Payment Status:
@@ -240,7 +240,7 @@ const InvoiceComponent = ({auth}) => {
                         </div>
                     </div>
                     </div>
-        
+
                     <div className="mt-8 sm:mt-12">
                     <h4 className="text-lg font-semibold text-gray-800 dark:text-neutral-200">
                         Thank you!
@@ -258,9 +258,9 @@ const InvoiceComponent = ({auth}) => {
                         </p>
                     </div>
                     </div>
-        
+
                     <p className="mt-5 text-sm text-gray-500 dark:text-neutral-500">
-                    © 2024 Radeema.
+                    © 2024 Alx.
                     </p>
                 </div>
                 {/* downlaod pdf */}
@@ -321,10 +321,9 @@ const InvoiceComponent = ({auth}) => {
             </div>
             <ToastContainer />
             </div>
-           
+
       </AuthenticatedLayout>
     );
   };
-  
+
   export default InvoiceComponent;
-  
